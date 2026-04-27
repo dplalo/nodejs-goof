@@ -29,3 +29,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: snyk auth "$SNYK_TOKEN"
       - run: snyk test
+      
